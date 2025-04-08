@@ -10,7 +10,7 @@ class Player{
     int damage;
     public:
     Player();
-    Player(string input_name.int input_health,int input_damage);
+    Player(string input_name,int input_health,int input_damage);
     void attack(Player *opponent,int damage);
     void takeDamage(int damage);
     string get_name();
@@ -22,5 +22,6 @@ class Player{
     int get_damage();
     void set_damage(int input_damage);
     ~Player();
-}
+};
+#endif
 

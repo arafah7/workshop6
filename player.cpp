@@ -1,4 +1,4 @@
-#include<player.H>
+#include<player.h>
 #include<iostream>
 using namespace std;
 Player :: Player(){

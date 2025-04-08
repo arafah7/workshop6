@@ -12,8 +12,8 @@ Wizard::Wizard() : Player() {
 }
 
 void Wizard::castSpell(Player* opponent) {
-      cout << name << " casts a spell on " << opponent->get_name() << " for " << damage << " damage.\n";
-    opponent->takeDamage(damage);
+      cout << get_name << " casts a spell on " << opponent->get_name() << " for " << get_damage << " damage.\n";
+    opponent->takeDamage(get_damage);
 }
 
 
